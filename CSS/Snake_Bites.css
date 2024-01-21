@@ -84,3 +84,28 @@ h1{
     padding: 15px;
     border-radius: 1rem;
 }
+
+@media  screen and (max-width:1000px) {
+    .body{
+        flex-direction: column;
+        margin: 8% 0;
+    }
+    img{
+        display: none;
+    }
+    h1{
+        position: relative;
+        text-align: center;
+    }
+    #scoreBox{   
+        left: 5px;
+    }
+    #hiscoreBox{
+        left:100px;
+    }
+    .back{
+        top:70px;
+        right:25px;
+        font-size: 10px;
+    }
+}

@@ -22,7 +22,7 @@ h1{
     height: 5rem;
     line-height: 5rem;
 }
-.choices{
+.option{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,10 +71,20 @@ img{
 .back{
     all: unset;
     position:fixed;
-    top:25px;
-    right:30px;
+    top:85px;
+    right:5px;
     background-color: var(--accent);
     color: var(--color);
     padding: 15px;
     border-radius: 1rem;
+    font-size: 1rem;
+}
+@media  screen and (max-width:500px) {
+    .option{
+        display: flex;
+        flex-direction: column;
+    }
+    #msg, .back {
+    font-size: 1rem;
+    }
 }
